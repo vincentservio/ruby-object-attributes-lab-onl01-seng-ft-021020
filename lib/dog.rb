@@ -6,5 +6,10 @@ def name=(new_name)
 def name 
     @name 
   end 
+    def breeds=(new_breed)
+    end 
     
+    def breed 
+      @breed 
+    end
 end
