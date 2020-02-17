@@ -1,3 +1,4 @@
 class Person 
-  def name
+  def name=(new_person)
+    @name
 end 
