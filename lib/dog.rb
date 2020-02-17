@@ -11,5 +11,6 @@ end
         @name = new_name
 end
 end
-fido = Dog.new("Fido")
-fido.name
+fido = Dog.new
+fido.name("Fido")
+puts dog.name
